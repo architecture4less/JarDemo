@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="HelloWorldDeploy:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/HelloWorldDeploy_jar</output-path>
+    <root id="archive" name="HelloWorldDeploy.jar">
+      <element id="module-output" name="HelloWorldDeploy" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/h2database/h2/1.4.185/h2-1.4.185.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
