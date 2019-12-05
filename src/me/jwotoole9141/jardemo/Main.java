@@ -20,7 +20,7 @@ public class Main extends Application {
         @SuppressWarnings("ConstantConditions")
         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("gui.fxml"));
 
-        primaryStage.setTitle("Maven Demo");
+        primaryStage.setTitle("Jar Demo");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }
